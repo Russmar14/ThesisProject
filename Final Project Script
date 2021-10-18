@@ -5,29 +5,29 @@ clearinfo
 appendInfoLine: "Duration"
 
 #grabbing number of intervals from textgrid file for "for loop"
-selectObject: "TextGrid AlexFast"
+selectObject: "TextGrid GenaSlow"
 numIntervals = Get number of intervals: 1
 
 #loop from 1 to above defined number of intervals
 for counter from 1 to numIntervals
 #assign name to call vowel segments only in "if" later, "2" pulls tier 2
-	selectObject: "TextGrid AlexFast"
+	selectObject: "TextGrid GenaSlow"
 	label$ = Get label of interval: 2, counter
 #only apply the following if segment is named "V" (vowel)
-		if label$ = "Vd"
+		if label$ = "Vl"
 #make sure to select Textgrid when appropriate, repeated several times below
-			selectObject: "TextGrid AlexFast"
+			selectObject: "TextGrid GenaSlow"
 #pull begin time of each V interval in tier 2
 			begin_time = Get start time of interval: 2, counter
 #round to 2 decimals using fixed$ function, repeated for each value below
 			begin_time_rounded$ = fixed$(begin_time,2)
 
 #grab end time to calculate duration and mid_point in tier 2
-			selectObject: "TextGrid AlexFast"
+			selectObject: "TextGrid GenaSlow"
 			end_time = Get end time of interval: 2, counter
 
 #calculate duration of each V segment
-			selectObject: "TextGrid AlexFast"
+			selectObject: "TextGrid GenaSlow"
 #duration is end - start *1000 for milliseconds
 			duration = (end_time - begin_time)*1000
 			duration_rounded$ = fixed$(duration,2)
