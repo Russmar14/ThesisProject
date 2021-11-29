@@ -5,9 +5,4 @@ DataVisualization is a folder containing TinyDataSheet.csv which includes all da
 
 Final Project Script is the script used for annotations in Praat to output data in a column that could be entered in Excel.
 
-ThesisWork Textgrids is a folder that includes all TextGrid files with annotations used in data collection. 
-
-
-Description
-
-Contents
+ThesisWork Textgrids is a folder that includes all TextGrid files with annotations used in data collection.
