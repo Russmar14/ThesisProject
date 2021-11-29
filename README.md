@@ -1,5 +1,9 @@
 # ThesisProject
-LIN 499 Thesis Repo
-This will be my read.me for this repo, currently unfinished. I will outline the project, what
-is inclueded in my Data Visualization folder (original data sheet, Tidy data sheet, Plots 
-jupyter notebook, etc.
+LIN 499 Thesis Project: The goal of this project was to research and study the voicing effect. This is discussed in detail in ThesisPaper.docx.
+
+DataVisualization is a folder containing TinyDataSheet.csv which includes all data collected, as well as Plots.ipynb, which is a Jupyter Notebook including the code used to do all visualizations. 
+
+
+Description
+
+Contents
